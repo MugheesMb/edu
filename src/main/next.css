@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+.nex {
+    justify-content: center;
+    display: flex;
+    font-size:  xx-large;
+    font-weight: 1000;
+    
+  
+}
+.ast {
+    width: 3%;
+    
+}
+
+.svgcontainer {
+    /*show heigh: auto*/
+  
+   
+  display: flex;
+  
+  flex-direction: row;
+   @media screen and (max-width: 400px) {
+      
+    display: block;
+  
+    }
+    
+  }
+
+
+
+  
+  .logg{  
+    width: 40vw;
+    
+  }
+
+.qoute{
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+
+}
+
+        .newl{
+            margin: auto 0px;
+           
+            
+        }
+        .opp{
+            margin: 5px 0px;
+            text-align: left;
+            font-size: 1.1rem;
+            line-height: 1.8rem;
+            letter-spacing: -0.2px;
+        }
+
+        .man{
+            margin: 0px auto;
+            width: 998px;
+        }
+
+       

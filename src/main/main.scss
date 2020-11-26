@@ -1,0 +1,87 @@
+
+.main{
+    height: 100vh;
+    
+    text-shadow: 2px 2px 4px #bbc9dd;
+    
+   display: flex;
+   
+   @media screen and (max-width: 1200px) {
+    height: unset;
+  
+     }
+ 
+.log{  
+   width: 50vw;
+   
+  
+   padding-top: 10vh;
+    
+   @media screen and (max-width: 1120px) {
+    padding-top: 200px;
+
+     }
+  
+   @media screen and (max-width: 800px) {
+    padding-top: 100px;
+
+     }
+  
+}
+.writ{
+
+   padding-top: 40vh;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+    width: 50%;
+    @media screen and (max-width: 1100px) {
+      
+      padding-top: 260px;
+      }
+    @media screen and (max-width: 800px) {
+      
+      padding-top: 180px;
+      }
+      @media screen and (max-width: 450px) {
+      
+        padding-top: 120px;
+        }
+}
+
+.hy{
+  font-size: 4vw;
+  
+   
+
+}
+.senior{
+  font-size: 3vw;
+  padding-right: 5%;
+  
+}
+.blink{
+  font-size: 2.5vw;
+   color:  #939598;
+     
+  
+
+}
+.react-rotating-text-cursor {
+
+    animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+  }
+
+}
+   
+  @keyframes blinking-cursor {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
