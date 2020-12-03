@@ -23,14 +23,7 @@ const Main = () => {
          <br/>
         
           
-          <ReactRotatingText  
-          className='blink'
          
-          items={['We Help with Assignments.', 'We Help with Thesis Writing.','We Help with Papers.','We Help with Research Papers.','We Help with Articles.','We Help with Proposal Writing.','We Help with Case studies.',]}
-                              color={' blue'}
-                              typingInterval ={10   }
-                              pause ={1000}
-          />
           
           </div>
          
